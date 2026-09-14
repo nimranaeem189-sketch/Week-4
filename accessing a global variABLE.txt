@@ -1,0 +1,26 @@
+#Aurthor Nimra Naeem
+#Class: Software Development
+# Example 4: Accessing a Global Variable
+
+# First we use count as global 
+
+# Declare any value for count 
+count=0
+def increment():
+    global count #Declare 'count' as global
+    count+=1
+    print(f"Count inside function:{count}")
+   
+
+    #Call the function
+increment()
+increment()
+increment()
+#increment()
+
+    #Access the global variable
+
+print(f"Count outside function:{count}")
+
+# Here I learn how access global variable and make string for calling global varialbe 
+# Anything that is written in print is the answer of whole process 
